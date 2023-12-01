@@ -1,0 +1,254 @@
+
+body, h1, h2, h3, p, ul, ol, li, table, th, td {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FF165D;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #FF165D;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    height: 60px;
+    margin-right: 20px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.nav-links li {
+    margin-left: 20px; 
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.menu-toggle {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.background-image {
+    background-image: url('./college/background\ image.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    text-align: right; /* Align text on the background image to the right */
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0);
+    color: #F6F7D7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 20px;
+    text-align: right;
+    height: 90%;
+}
+
+h1 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.main {
+    text-align: center;
+    padding: 20px;
+}
+
+#about-us {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+#services {
+    background-color:#ffffff;
+    text-align: center;
+}
+
+#service-pricing {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #333;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #333;
+    padding: 10px;
+}
+
+th {
+    background-color: #333;
+    color: #fff;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#contact {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="number"],
+form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    outline: none;
+}
+
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    outline: none;
+}
+
+form input[type="submit"] {
+    background: #333;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form input[type="submit"]:hover {
+    background-color: #555;
+}
+
+#contact h2 {
+    margin-top: 20px;
+
+}
+
+.contact p {
+    margin: 10px 0;
+}
+.image-container {
+    display: flex;
+    justify-content: center;
+}
+
+.image-container img {
+    border-radius: 50%;
+    margin: 0px; 
+    width: 80px; 
+    height: 80px;
+}
+.team-member {
+    text-align: center;
+    margin: 20px;
+    border: 1px solid #000000;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #f9f2f2;
+}
+
+.team-member img {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+#services {
+    text-align: center;
+    padding: 40px;
+}
+
+.service {
+    background-color: #f9f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+    text-align: left;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.service h3 {
+    font-size: 1.5rem;
+    margin-top: 0;
+}
+
+.service p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.service p:last-child {
+    margin-bottom: 0;
+}
+
+
+
+
+
+
+
