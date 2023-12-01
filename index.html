@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Knotcraft</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="./college/Group 2.png" alt="Wedding Planner Logo" class="logo">
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about-us">About Us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle">&#9776;</div>
+        </div>
+    </header>
+
+    <div class="background-image">
+        <div class="overlay">
+            <h1>Welcome to KnotCraft: Where Every Knot Tells a Story</h1>
+        </div>
+    </div>
+    <br>
+    <main>
+        <section id="about-us">
+            <h2>About Us</h2>
+            <div class="team-member">
+                <img src="css/ls2.jpg" alt="Wedding Planner Team Member 1">
+                <h3>Rushi Gavhane</h3>
+                <p>Wedding Planner</p>
+                <p>Full Wedding Planning Specialist</p>
+            </div>
+            <div class="team-member">
+                <img src="college/ls1.jpg" alt="Wedding Planner Team Member 2">
+                <h3>Aman Bhogale</h3>
+                <p>Event Coordinator</p>
+                <p>Partial Wedding Planning Expert</p>
+            </div>
+            <div class="team-member">
+                <img src="college/ls3.jpg" alt="Wedding Planner Team Member 3">
+                <h3>Shanuj Tiwari</h3>
+                <p>Logistics Manager</p>
+                <p>Day-of Coordination Specialist</p>
+            </div>
+        </section>
+        
+<br>
+        <section id="services">
+            <h2>Our Services</h2>
+            <div class="service">
+                <h3>Full Wedding Planning</h3>
+                <p>Complete wedding planning and coordination. Our team will work with you from the initial concept to the final execution, ensuring every detail is perfect for your special day.</p>
+                <p>Price: Rs 4,99,999</p>
+            </div>
+            <div class="service">
+                <h3>Partial Wedding Planning</h3>
+                <p>Assistance with select planning elements. If you've already started planning but need help with specific aspects, our experts are here to support you.</p>
+                <p>Price: Rs 1,00,000</p>
+            </div>
+            <div class="service">
+                <h3>Day-of Coordination</h3>
+                <p>Coordination on the wedding day. We'll ensure that everything runs smoothly, allowing you to relax and enjoy your special day without worrying about the details.</p>
+                <p>Price: Rs 30,000</p>
+            </div>
+        </section>
+        
+        <br>
+
+        <section id="service-pricing">
+            <h2>Service Pricing</h2>
+            <table>
+                <tr>
+                    <th>Service</th>
+                    <th>Description</th>
+                    <th>Price</th>
+                </tr>
+                <tr>
+                    <td>Full Wedding Planning</td>
+                    <td>Complete wedding planning and coordination.</td>
+                    <td>Rs 4,99,999</td>
+                </tr>
+                <tr>
+                    <td>Partial Wedding Planning</td>
+                    <td>Assistance with select planning elements.</td>
+                    <td>Rs 1,00,000</td>
+                </tr>
+                <tr>
+                    <td>Day-of Coordination</td>
+                    <td>Coordination on the wedding day.</td>
+                    <td>Rs 30,000</td>
+                </tr>
+            </table>
+        </section>
+        <br>
+        <section class="contact" id="contact">
+
+            <div class="heading">
+                <h1>contact us</h1>
+                <img src="images/header-img.png" alt="">
+            </div>
+        
+            <form action="">
+                <div class="inputBox">
+                    <input type="text" placeholder="your name">
+                    <input type="email" placeholder="your email">
+                </div>
+                <div class="inputBox">
+                    <input type="number" placeholder="your number">
+                    <input type="text" placeholder="your address">
+                </div>
+                <textarea placeholder="say something" name="" id="" cols="30" rows="10"></textarea>
+                <input type="submit" value="send message" class="btn">
+            </form>
+        
+        </section>
+        <section id="our contact">
+            <h2>Contact Details</h2>
+            <p>Email: knotcraft143@gmail.com</p>
+            <p> Phone:+91 9404745573 </p>
+        </section>
+        <section> 
+            <div style="text-align: center;">  
+            <button onclick="showAlert()">Alert</button> 
+            <button onclick="showConfirm()">Confirm</button> 
+            <button onclick="showPrompt()">Prompt</button> 
+            </div> 
+             
+            <script> function showAlert() { alert('This is an alert message.'); 
+            } 
+             
+            function showConfirm() { if (confirm('Do you want to proceed?')) { alert('You clicked OK.'); 
+            } else { alert('You clicked Cancel.'); 
+            } 
+            } 
+             
+            function showPrompt() { const userInput = prompt('Please enter your name:', 'John Doe'); if (userInput !== null) { alert('Hello, ' + userInput + '!'); 
+            } else { alert('You canceled or closed the prompt.'); 
+            } 
+            } 
+            </script> 
+            </section>
+        
+    </main>
+</body>
+</html>
